@@ -138,7 +138,8 @@ fun MenuContent(category: String, entrees: List<String>, plats: List<String>, de
             modifier = Modifier.padding(8.dp)
         )
 
-        when (category) {
+        when (category)
+        {
             "Entrées" -> DishListComponent(entrees, onDishClicked)
             "Plats" -> DishListComponent(plats, onDishClicked)
             "Desserts" -> DishListComponent(desserts, onDishClicked)
