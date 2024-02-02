@@ -62,7 +62,8 @@ class MenuActivity : ComponentActivity() {
         }
 
     }
-    companion object {
+    companion object
+    {
         const val CATEGORY_KEY = "category"
     }
 
