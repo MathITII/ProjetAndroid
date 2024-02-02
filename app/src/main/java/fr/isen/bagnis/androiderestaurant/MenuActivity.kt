@@ -150,7 +150,8 @@ fun MenuContent(category: String, entrees: List<String>, plats: List<String>, de
 
 @Preview(showBackground = true)
 @Composable
-fun MenuContentPreview() {
+fun MenuContentPreview()
+{
     AndroidERestaurantTheme {
         val entrees = listOf("Salade César", "Bruschetta", "Salade Niçoise", "foie gras")
         val plats = listOf("Steak au poivre", "Pâtes Carbonara", "Bouillabaise", "fajitas")
