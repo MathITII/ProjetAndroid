@@ -1,6 +1,7 @@
 package fr.isen.bagnis.androiderestaurant.model
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 
 data class Ingredients (
@@ -13,4 +14,4 @@ data class Ingredients (
   @SerializedName("update_date" ) var updateDate : String? = null,
   @SerializedName("id_pizza"    ) var idPizza    : String? = null
 
-)
+): Serializable
