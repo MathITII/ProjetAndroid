@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">AndroidERestaurant</string>
     <string name="title_activity_test">test</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_category">CategoryActivity</string>
 </resources>
