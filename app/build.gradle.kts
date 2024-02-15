@@ -54,6 +54,9 @@ dependencies {
     implementation ("com.google.code.gson:gson:2.10")
     implementation ("io.coil-kt:coil-compose:1.3.2")
     implementation("io.coil-kt:coil-compose:2.0.0-rc01")
+    implementation ("com.google.code.gson:gson:2.10")
+    implementation("androidx.compose.runtime:runtime:1.6.1")
+    implementation("androidx.viewpager2:viewpager2:1.0.0")
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
